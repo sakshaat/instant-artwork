@@ -7,7 +7,7 @@ To use this one your system, clone the repository, install the prerequisities an
 
 ### Prerequisites
 
-You will need to install OpenCV (https://opencv.org) on your computer.
+You will need to install [OpenCV](https://opencv.org) on your computer.
 
 ### Usage
 First you need to compile the code:
@@ -22,10 +22,6 @@ Then to actually run the actual program, just run:
 ```
 
 ### Acknowledgements
-This project was inspired to create this by this tweet:
-https://twitter.com/k_koi/status/1026478534376734720
+This project was inspired to create this by this [tweet](https://twitter.com/k_koi/status/1026478534376734720).
 
-I would totally recommend that you check out the rest of the original creator's work. 
-
-### Other Comments
-I might add more modules to this in the future if I find more interesting ways I can manipulate pixels.
+I would totally recommend that you check out the rest of the original creator's work.
