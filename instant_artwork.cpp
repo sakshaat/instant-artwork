@@ -32,6 +32,7 @@ Mat selective_sampling(Mat image, int row_div, int col_div) {
     int x = image.rows / row_div;
     int y = image.cols / col_div;
 
+    // just selects a random sample of pixels
     for(int i = 0; i < col_div; i++) {
         for(int j = 0; j < row_div; j++) {
             images[j][i] = image(Range(0 + (x * j), x + (x * j)), 
@@ -90,6 +91,7 @@ int main(int argc, char const *argv[])
     // Error checking
     if(argc < 2) {
         cout <<  "Enter a filename." << std::endl;
+        return -1;
     }
 
     // Read image
@@ -102,6 +104,8 @@ int main(int argc, char const *argv[])
     }
 
     Mat result = selective_sampling(image, 60, 30);
+
+    // write the reesult to file
     writeToFile(result, "result.png");
 
     return 0;
