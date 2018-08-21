@@ -1,5 +1,5 @@
 # Instant Artwork
-A simple pixel artwork generator created in C++ and OpenCV.
+A simple pixel artwork generator created in C++ and OpenCV (created mostly to learn C++).
 
 Original Picture        |  Pixelated Picture
 :-------------------------:|:-------------------------:
