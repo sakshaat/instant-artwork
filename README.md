@@ -1,6 +1,11 @@
 # Instant Artwork
-A quick pixel artwork generator created in C++ and OpenCV.
+A simple pixel artwork generator created in C++ and OpenCV.
 
+Original Picture        |  Pixelated Picture
+:-------------------------:|:-------------------------:
+<img src="https://github.com/sakshaat/instant-artwork/blob/master/example/face.jpg" width="250">  |  <img src="https://github.com/sakshaat/instant-artwork/blob/master/example/face_result.png" width="250">
+
+    
 ## Getting Started
 
 To use this one your system, clone the repository, install the prerequisities and use the make file to generate the compiled code. 
