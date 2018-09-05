@@ -27,6 +27,6 @@ Then to actually run the actual program, just run:
 ```
 
 ### Acknowledgements
-This project was inspired to create this by this [tweet](https://twitter.com/k_koi/status/1026478534376734720).
+This project was inspired by Kensuke Koike's [tweet](https://twitter.com/k_koi/status/1026478534376734720).
 
 I would totally recommend that you check out the rest of the original creator's work.
